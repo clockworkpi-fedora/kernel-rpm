@@ -134,7 +134,7 @@ Summary: The Linux kernel
 #
 
 # kernel package name
-%global package_name kernel-longterm
+%global package_name clockworkpi-fedora-kernel
 %global gemini 0
 # Include Fedora files
 %global include_fedora 1
@@ -1082,7 +1082,6 @@ Source5000: https://www.kernel.org/pub/linux/kernel/v6.x/%{stable_patch_00}
 
 Patch1: patch-%{patchversion}-redhat.patch
 %endif
-
 # empty final patch to facilitate testing of kernel patches
 Patch999999: linux-kernel-test.patch
 

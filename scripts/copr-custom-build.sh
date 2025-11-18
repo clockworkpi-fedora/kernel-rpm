@@ -9,13 +9,10 @@ BUILD_ID="09758162"
 KERNEL_VERSION="6.12.57"
 KERNEL_RELEASE="200"
 SRPM_FILE_NAME="kernel-longterm.src.rpm"
-SRC_DIR="src"
 BUILD_DIR="build"
 
 rm -rf $GIT_SOURCE_DIR || true
-rm -r $SRC_DIR || true
 rm -r $BUILD_DIR || true
-mkdir $SRC_DIR
 mkdir $BUILD_DIR
 
 echo "Downloading base kernel-longterm src.rpm..."
